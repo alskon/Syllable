@@ -1,0 +1,10 @@
+.mainHeader {
+    margin-bottom: 40px;
+}
+.mainHeader span {
+    font-size: 60px;
+    font-weight: 700;
+    -webkit-text-stroke: 1px gray;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 1.5px;
+}

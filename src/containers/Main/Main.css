@@ -1,0 +1,8 @@
+.timerClearWrapper {
+    width:1140px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.timerClearWrapper > * {
+    text-align: left;
+}

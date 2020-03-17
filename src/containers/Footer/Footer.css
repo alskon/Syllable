@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+footer {
+    display: grid;
+    font-family: 'Amatic SC', Helvetica, Arial, serif;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+    padding: 30px 0;
+    border-top: 1px black dotted;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
+footer p {
+    margin:0;
+    cursor: default;
+}

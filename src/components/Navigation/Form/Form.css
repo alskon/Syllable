@@ -1,0 +1,49 @@
+form {
+    margin: 5px 0;
+    text-align: center;
+}
+form {
+    margin-top: 10px;
+}
+form div {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 7px 15px;
+    border: 1px black dotted;
+    border-radius: 60px;
+}
+.rusChapter {
+    background-color: rgb(252, 141, 209);
+    padding: 15px;
+}
+.engChapter {
+    background-color: rgb(152, 253, 85);
+    padding: 15px;
+}
+.arithmetic {
+    background-color: rgb(224, 235, 72);
+    padding: 15px;
+}
+
+form button {
+    background-color: rgb(66, 66, 167);
+    margin-left: 5px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+form button:hover {
+    box-shadow: rgb(99, 129, 150) 2px 0px 10px;
+}
+form button:disabled {
+    background-color: rgb(130, 130, 139);
+    cursor: none;
+}
+form button:disabled:hover {
+    box-shadow: none;
+}
+form button:focus {
+    outline:none
+}

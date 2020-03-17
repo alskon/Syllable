@@ -1,0 +1,15 @@
+.wordBlock {
+    color: white;
+    text-align: center;
+    font-size: 160px;
+    border-radius: 30px;
+    position: relative;
+}
+.wordBlock p {
+    padding: 0;
+    display: inline;
+    border: 2px white solid
+}
+.wordBlock p::selection {
+    background: transparent;
+}

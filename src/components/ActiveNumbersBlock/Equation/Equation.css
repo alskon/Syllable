@@ -1,0 +1,23 @@
+.numberBlock {
+    color: white;
+    text-align: center;
+    font-size: 160px;
+    border-radius: 30px;
+}
+.numberBlock p {
+    padding: 0;
+    display: inline;
+    border: 2px white solid
+}
+.numberBlock p::selection, .question::selection {
+    background: transparent;
+}
+.question {
+    display: inline-block;
+    padding: 0 30px;
+    margin: 5px;
+    border: 2px white solid;
+    color: rgb(221, 157, 157);
+    background-color:rgb(67, 97, 153);
+    cursor: pointer;
+}

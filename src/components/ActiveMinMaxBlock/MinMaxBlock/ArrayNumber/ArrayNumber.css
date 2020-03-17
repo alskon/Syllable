@@ -1,0 +1,9 @@
+.correctMinAnswer, .correctMaxAnswer {
+    background-color: green;
+}
+.wrongAnswer {
+    background-color: red;
+}
+p {
+    cursor: pointer
+}

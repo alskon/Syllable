@@ -1,0 +1,7 @@
+
+ .Navigation {
+  width:1200px;
+  grid-template-columns: 10fr 1fr;
+  grid-column-gap: 10px;
+ }
+

@@ -1,0 +1,15 @@
+.syllableBlock {
+    color: white;
+    text-align: center;
+    font-size: 160px;
+    border-radius: 30px;
+    position: relative;
+}
+.syllableBlock p {
+    padding: 0;
+    display: inline;
+    border: 2px white solid
+}
+.syllableBlock p::selection {
+    background: transparent;
+}

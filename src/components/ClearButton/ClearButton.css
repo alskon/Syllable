@@ -1,0 +1,17 @@
+.refresh {
+    background-color: white;
+    padding: 0px;
+    border:none;
+  }  
+.refresh svg{
+  cursor: pointer;
+}
+  .refresh:focus {
+    outline: none;
+  }
+  .refresh svg :hover  {
+    fill: #50b4d4;
+    stroke: black;
+    stroke-width:5;
+    text-shadow: black 1px 0px 30px;
+  }
